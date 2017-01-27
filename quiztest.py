@@ -18,3 +18,13 @@ if int(user3) is not 5:
     print("You got number three wrong.")
 if int(user4) is not 5:
     print("You got number four wrong.")
+if int(user) is 0:
+    print("You got number one wrong.")
+if int(user2) is 1:
+    print("You got number two wrong.")
+if int(user3) is 5:
+    print("You got number three wrong.")
+if int(user4) is 5:
+    print("You got number four wrong.")
+if int(user) is 0 and int(user2) is 1 and int(user3) is 5 and int(user4) is 5:
+    print("You got all of them right!")
